@@ -1472,7 +1472,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************* HOTEL-HOMEPAGE *************/
 
 #hotel-homepage #hotel-offers{
-	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../images/hotel-offers.jpg) 50% 80%;
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(.../images/hotel-offers.jpg) 50% 80%;
 	background-size:cover;
 }
 
@@ -1482,7 +1482,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
    ----------------------------------------------------- */
 
 #main-homepage #tour-offers{
-	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../img/tour-offer.webp) 50% 0%;
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(.../img/tour-offer.webp) 50% 0%;
 	background-size:cover;
 	background-attachment:fixed;
 }
@@ -1863,7 +1863,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************** VIDEO-BANNER **************/
   
 #video-banner{
-	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('../images/video-banner.jpg') 50% 37%;
+	background: linear-gradient(rgba(0, 0, 0,0.6),rgba(0, 0, 0,0.6)),url('.../images/video-banner.jpg') 50% 37%;
 	background-size:140%;
 }
 
@@ -1882,7 +1882,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************* MESSAGE-BANNER *************/
 
 #message-banner{
-	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('../images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(0, 0, 0,0.76),rgba(0, 0, 0,0.76)),url('.../images/message-banner.jpg') 50% 66%;
 	background-size:140%;
 	color:white;
 }
@@ -1894,7 +1894,7 @@ nav.navbar#mynavbar-3 .navbar-brand .fa
 /************* SEARCH-BANNER *************/
 
 #search-banner{
-	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)),url('../images/message-banner.jpg') 50% 66%;
+	background: linear-gradient(rgba(250, 166, 26,0.8),rgba(250, 166, 26,0.8)),url('.../images/message-banner.jpg') 50% 66%;
 	background-size:140%;
 	color:white;
 }
