@@ -1,3 +1,5 @@
+<?php
+
 class WP_HTML_Compression
 {
 	// Settings
