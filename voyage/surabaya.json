@@ -1,5 +1,4 @@
-Surabaya
-({
+Surabaya({
     "name": "Linfen",
     "code": "LFQ",
     "coordinates": {
@@ -9,4 +8,4 @@ Surabaya
     "country_code": "CN",
     "time_zone": "Asia/Shanghai"
   }
-)
+);
