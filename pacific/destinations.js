@@ -3,7 +3,7 @@
       if (this.readyState == 4 && this.status == 200) {
          var data=JSON.parse(xhttp.responseText);
          data.forEach(function(element) {
-      document.getElementById("flightz").innerHTML +="'+destination.city_name+', '+destination.city_name+'";
+      document.getElementById("flightz").innerHTML +=" "+ destination.city_name + ", " + destination.city_name + " ";
     });
       }
   };
