@@ -1,6 +1,9 @@
-$.getJSON("https://suggest.travelpayouts.com/weedle?destination_iata=JKT&amp;locale=en&amp;currency=usd&amp;limit=10", function(result){
-       console.log(result);
-       $.each(result, function(i){
-         document.getElementById("flightx").innerHTML +=" "+ result[i].origin + " ";
-       });
-     });
+$(function() {
+ $.getJSON("https://suggest.travelpayouts.com/weedle?destination_iata=JKT&locale=en&currency=usd&limit=10",
+  function(destination) {
+   if (destination.country_name && destination.city_name) {
+    $('#flightx').html(''+destination.city_name+'');
+   }
+  }
+ );
+ });
